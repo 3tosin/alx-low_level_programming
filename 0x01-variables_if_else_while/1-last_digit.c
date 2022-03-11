@@ -3,18 +3,17 @@
 #include <stdio.h>
 
 /**
- * main - prints the last digit of 
- * a random number stored in n
+ * main - prints last digit of n
+ *
  * Return - Always 0 (Success)
  */
 int main(void)
 {
-	int n,l;
-        
+	int n, l;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	l = n % 10;
-	printf ("Last digit of %d is %d ", n, l);
+	printf("Last digit of %d is %d ", n, l);
 	if (l > 5)
 	{
 		printf("and is greater than 5\n");

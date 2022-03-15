@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main -checks the code.
+ * main - prints the sign of a number
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int print_sign(int n)
 {
@@ -20,6 +20,6 @@ int print_sign(int n)
 	else if (n < 0)
 	{
 		_putchar('-');
-		return (-1);
 	}
+		return (-1);
 }

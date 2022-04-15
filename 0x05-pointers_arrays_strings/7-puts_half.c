@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -22,6 +24,6 @@ void puts_half(char *str)
 		i = (count - 1) / 2;
 
 	for (i++; i < count; i++)
-		_putchar(str[i]);
-	_putchar('\n');
+		putchar(str[i]);
+	putchar('\n');
 }

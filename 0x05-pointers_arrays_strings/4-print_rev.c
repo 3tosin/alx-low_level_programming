@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -18,5 +20,5 @@ void print_rev(char *s)
 
 	for (count--; count >= 0; count--)
 		putchar(s[count]);
-	putchar('\n');
+k	putchar('\n');
 }

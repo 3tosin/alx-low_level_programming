@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * _puts - prints a string, followed by a new line.
@@ -13,11 +14,11 @@ void _puts(char *str)
 	{
 		if (str[count] == '\0')
 		{
-			_puts('\n');
+			_putchar('\n');
 			break;
 
 		}
-		_puts(str[count]);
+		_putchar(str[count]);
 		count++;
 	}
 }
